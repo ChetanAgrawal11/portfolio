@@ -1,0 +1,28 @@
+.skills{
+    background-color: #202020;
+}
+@media (max-width: 768px){
+    .hello2{
+        margin-left:22% ;
+    }
+    .hello3{
+        margin-left:22% ;
+    }
+    .div5{
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    }
+}
+@media (max-width:320px){
+    .div3{
+        display: inline;
+    }
+    .text1{
+        margin-left: 20px;
+    }
+    .text3{
+        margin-left: 17px;
+    }
+    .div5{
+        grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    }
+}

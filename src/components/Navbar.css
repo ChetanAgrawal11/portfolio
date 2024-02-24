@@ -1,0 +1,17 @@
+/* .main{
+    display: none;
+} */
+.dropdown-btn{
+    display:none;
+}
+.blur-background {
+    backdrop-filter: blur(8px);
+  }
+@media (max-width: 768px){
+    .dropdown-btn{
+        display: block;
+    }
+    .main{
+        display: none;
+    }
+}
