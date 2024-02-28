@@ -13,7 +13,6 @@ const Home = () => {
         <div className="hero-heading relative ">
           <div className="first flex relative top-[25%] left-[20%] z-10">
             <p className="text-6xl font-bold">Hi</p>
-            <p className=" text-6xl text-zinc-200">,</p>
           </div>
           <div className="second relative flex top-[28%] left-[20%] flex gap-3 z-10">
             <p className="no text-6xl font-black font-serif ">I </p>
@@ -31,12 +30,11 @@ const Home = () => {
             </p>
             <div className="buttons flex gap-4">
               <div className="button1 bg-zinc-500 w-[150px] rounded-lg mt-5 h-[50px] flex justify-center items-center  hover:scale-[1.1] transition duration-500 ease-in-out">
-                <a href="" className="text-white font-semibold">
-                  Get in Touch
-                </a>
-              </div>
-              <div className="button2  border-2  w-[150px]   mt-5 h-[50px] flex justify-center items-center">
-                <a href="" className="font-bold">
+                <a
+                  href="https://drive.google.com/file/d/1eICG_aA9AOKnoeef6J9WDrjGDtFS2h3X/view?usp=sharing"
+                  download="resume.pdf"
+                  className="text-white font-semibold"
+                >
                   Download CV
                 </a>
               </div>

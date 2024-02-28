@@ -1,0 +1,11 @@
+@media (max-width:320px){
+.div9{
+    gap: 50px;
+    flex-direction: column;
+}
+}
+@media (min-width:321px) and (max-width:768px){
+    .div9{
+        width: 80%;
+    }
+}

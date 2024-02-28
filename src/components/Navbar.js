@@ -20,7 +20,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn font-semibold rounded-lg hover:bg-black hover:scale-[1.15] hover:text-white transition duration-500 ease-in-out"
-                href="/"
+                href="#"
               >
                 Home
               </a>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn font-semibold hover:bg-black hover:text-white hover:scale-[1.15] transition duration-500 ease-in-out"
-                href="/"
+                href="#skills"
               >
                 Skills
               </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn font-semibold hover:bg-black hover:text-white  hover:scale-[1.15] transition duration-500 ease-in-out"
-                href="/"
+                href="#projects"
               >
                 Projects
               </a>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn font-semibold hover:bg-black hover:text-white  hover:scale-[1.15] transition duration-500 ease-in-out"
-                href="/"
+                href="#achievement"
               >
                 Achievement
               </a>
@@ -52,7 +52,9 @@ const Navbar = () => {
           </div>
 
           <button className="btn font-semibold h-[35px] hover:bg-blue-700 hover:text-white hover:scale-[1.15] transition duration-500 ease-in-out">
-            <a href="">Linkedin</a>{" "}
+            <a href="https://www.linkedin.com/in/chetan-agrawal-b7a226256/">
+              Get in Touch
+            </a>{" "}
           </button>
           <div className="dropdown-btn relative ">
             <button onClick={() => setOpen((prev) => !prev)}>
@@ -97,7 +99,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="btn font-semibold text-xl hover:text-white hover:scale-[1.15] transition duration-500 ease-in-out"
-                        href="/"
+                        href="#skills"
                       >
                         Skills
                       </a>
@@ -105,7 +107,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="btn font-semibold text-xl hover:text-white  hover:scale-[1.15] transition duration-500 ease-in-out"
-                        href="/"
+                        href="#projects"
                       >
                         Projects
                       </a>
@@ -113,7 +115,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="btn font-semibold text-xl hover:text-white  hover:scale-[1.15] transition duration-500 ease-in-out"
-                        href="/"
+                        href="#achievement"
                       >
                         Achievement
                       </a>

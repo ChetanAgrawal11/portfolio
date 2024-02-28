@@ -1,0 +1,145 @@
+/* .gallery  div{
+    grid-template-columns: auto auto auto;
+
+
+    grid-gap:20px;
+    padding: 10px;
+    flex: none;
+    
+}
+
+
+.gallery{
+    overflow-x:scroll ;
+}
+.gallery div  img{
+    width:100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+
+}
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+.gallery-warp{
+    margin:10% ;
+}
+.gallery div  img:hover{
+    width:100%;
+    filter: grayscale(0);
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+
+} 
+ */
+
+
+ .gallery {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling effect */
+    width: 100%; /* Set the width to fill the available space */
+}
+
+.gallery div {
+    flex: none; /* Ensure each image container does not grow */
+    width: auto; /* Each image container occupies the full width */
+    display: flex; /* Use flexbox to align images */
+   gap: 50px;/* Add gap between images */
+    padding: 10px;
+    
+}
+.gallery div .heello2:hover img {
+    filter: grayscale(0);
+}
+
+.gallery div img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+.gallery div .heello2{
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.gallery div img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1);
+}
+.gallery div .heello2:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+
+.gallery::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+.gallery-warp {
+    margin: 6%;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .gallery div {
+        width: auto; 
+        
+    }
+    .gallery{
+        width: 320px;
+        height: 450px;
+    }
+    .div2{
+        margin-left: 250px;
+    }
+   .gallery-warp{
+    flex-direction: column;
+    margin: 1%;
+    width: 320px;
+   }
+    .buton1{
+        height:15px;
+        margin: 15px;
+    }
+    .buton2{
+        height: 15px;
+        margin: 15px;
+    }
+   
+
+} 
+@media (max-width: 768px) and (min-width:321px) {
+    .gallery div {
+        width: auto; 
+        
+    }
+    .gallery{
+        height: 480px;
+       
+    }
+    .div2{
+        margin-left: 50px;
+    }
+    .gallery-warp{
+        margin: 15px;
+    }
+    .buton1{
+        height: 25px;
+        margin: 14px;
+    }
+    .buton2{
+        height: 25px;
+        margin: 14px;
+    }
+
+
+}

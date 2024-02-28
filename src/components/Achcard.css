@@ -1,0 +1,8 @@
+@media  (max-width:320px){
+    .part2{
+display: none;
+    }
+    .card2{
+        height: fit-content;
+    }
+}
