@@ -5,7 +5,7 @@ import achievement from "../data/achievement.ts";
 const Achievement = () => {
   return (
     <section id="achievement">
-      <div className="ach1 bg-zinc-500 flex flex-col  items-center ">
+      <div className="ach1  flex flex-col  items-center ">
         <p className="text-white mt-[40px] text-3xl font-bold">
           Achievement and Certification
         </p>
