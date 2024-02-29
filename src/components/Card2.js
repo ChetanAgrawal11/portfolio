@@ -9,7 +9,7 @@ const Card2 = (props) => {
   return (
     <span>
       <div
-        class="heello2 bg-zinc-500 flex flex-col rounded-lg "
+        class="heello2  flex flex-col rounded-lg "
         id="id2"
         style={{
           width: "18rem",
