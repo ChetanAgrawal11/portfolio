@@ -29,7 +29,7 @@ const Home = () => {
               Websites, Exceeding Expectations Every Time.
             </p>
             <div className="buttons flex gap-4">
-              <div className="button1 bg-zinc-500 w-[150px] rounded-lg mt-5 h-[50px] flex justify-center items-center  hover:scale-[1.1] transition duration-500 ease-in-out">
+              <div className="button1  w-[150px] rounded-lg mt-5 h-[50px] flex justify-center items-center  hover:scale-[1.1] transition duration-500 ease-in-out">
                 <a
                   href="https://drive.google.com/file/d/1eICG_aA9AOKnoeef6J9WDrjGDtFS2h3X/view?usp=sharing"
                   download="resume.pdf"
